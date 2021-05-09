@@ -1,0 +1,244 @@
+type = menu
+
+customization-meta {
+  identifier = net.minecraft.client.gui.screen.MainMenuScreen
+  renderorder = foreground
+}
+
+customization {
+  path = resourcepacks/assets/bg.png
+  action = texturizebackground
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 440
+  slim = false
+  actionid = a3698d67-2aab-4eef-8759-ba54c17e76ef1620460486180
+  action = addentity
+  y = 242
+  scale = 25
+  playername = NEAC2004
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  x = 289
+  width = 345
+  action = addwebtexture
+  actionid = 55db9b5a-1229-4a58-aa4a-4a2259e346e91620460421557
+  y = 158
+  url = https://i.imgur.com/lkzzZuk.png
+  height = 345
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 532
+  slim = false
+  actionid = 8d802f79-70d4-474b-bfec-0711a113f3c51620460469757
+  action = addentity
+  y = 311
+  scale = 40
+  playername = Lyzio
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 416
+  slim = false
+  actionid = 8697ac6e-e19c-48dd-971b-c25f36c1f77d1620460487156
+  action = addentity
+  y = 376
+  scale = 30
+  playername = Wingbeatz
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  basecolor = #FDB719
+  shadow = true
+  rotation = -10.0
+  x = 34
+  actionid = 9f85366d-af70-4790-8c2f-32315bd6703d1620460567312
+  action = addsplash
+  y = 679
+  scale = 1.0
+  refresh = false
+  text = Version 0.1
+  bouncing = true
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1136
+  action = addtext
+  actionid = 9674e374-029d-4591-9c2e-32c5be01f06e1620460624179
+  y = 38
+  scale = 1.0
+  alignment = left
+  value = Minecraft %mcversion%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 1137
+  action = addtext
+  actionid = e73ac401-06ad-48f4-805f-7a8d538539cf1620460644076
+  y = 49
+  scale = 1.0
+  alignment = left
+  value = Mods: %totalmods%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 7
+  action = addtext
+  actionid = 94ee4fad-3539-406c-90d9-aa94f39605f61620460686235
+  y = 704
+  scale = 1.0
+  alignment = left
+  value = Fort DwarfCraft by Flying Dwarf Squadron
+}
+
+customization {
+  identifier = %id=400322%
+  orientation = top-left
+  x = 565
+  action = movebutton
+  y = 345
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400322%
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/assets/knappar/multi-hov.png
+  backgroundnormal = resourcepacks/assets/knappar/multi-reg.png
+}
+
+customization {
+  identifier = %id=604382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 555
+  action = movebutton
+  y = 23
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400382%
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/assets/knappar/options-hov.png
+  backgroundnormal = resourcepacks/assets/knappar/options-reg.png
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = mid-left
+  x = 538
+  action = movebutton
+  y = 41
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=502382%
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/assets/knappar/quit-hov.png
+  backgroundnormal = resourcepacks/assets/knappar/quit-reg.png
+}
+
+customization {
+  identifier = %id=376382%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=400298%
+  orientation = top-left
+  x = 584
+  action = movebutton
+  y = 326
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400298%
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/assets/knappar/singel-hov.png
+  backgroundnormal = resourcepacks/assets/knappar/singel-reg.png
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 561
+  action = movebutton
+  y = 364
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttonlabel
+  value = 
+}
+
+customization {
+  identifier = %id=400346%
+  action = setbuttontexture
+  backgroundhovered = resourcepacks/assets/knappar/mods-hov.png
+  backgroundnormal = resourcepacks/assets/knappar/mods-reg.png
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=376346%
+  orientation = top-left
+  x = 1134
+  action = movebutton
+  y = 13
+}
+

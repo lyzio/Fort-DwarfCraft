@@ -1,0 +1,154 @@
+type = menu
+
+customization-meta {
+  identifier = com.github.alexthe666.iceandfire.client.gui.IceAndFireMainMenu
+  renderorder = foreground
+}
+
+customization {
+  path = resourcepacks/assets/bg.png
+  action = texturizebackground
+}
+
+customization {
+  identifier = %id=400346%
+  orientation = top-left
+  x = 642
+  action = movebutton
+  y = 274
+}
+
+customization {
+  identifier = %id=502346%
+  action = hidebutton
+}
+
+customization {
+  identifier = %id=604382%
+  orientation = mid-centered
+  x = -100
+  action = movebutton
+  y = -42
+}
+
+customization {
+  identifier = %id=604382%
+  width = 201
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  identifier = %id=400382%
+  orientation = mid-left
+  x = 540
+  action = movebutton
+  y = -86
+}
+
+customization {
+  identifier = %id=502382%
+  orientation = top-centered
+  x = 2
+  action = movebutton
+  y = 296
+}
+
+customization {
+  identifier = %id=376382%
+  orientation = top-left
+  x = 540
+  action = movebutton
+  y = 296
+}
+
+customization {
+  identifier = %id=376382%
+  width = 98
+  action = resizebutton
+  height = 20
+}
+
+customization {
+  orientation = top-left
+  x = 539
+  width = 194
+  action = addwebtexture
+  actionid = 609780bd-9328-4b44-b19a-5b66bd5b3f781620458675506
+  y = 21
+  url = https://i.imgur.com/lkzzZuk.png
+  height = 194
+}
+
+customization {
+  orientation = top-left
+  basecolor = #ff7800
+  shadow = true
+  delayappearanceseconds = 3.0
+  rotation = -20.0
+  scale = 1.0
+  refresh = false
+  bouncing = true
+  fadein = true
+  fadeinspeed = 1.0
+  x = 662
+  actionid = 86f8a7d5-c66c-4f39-a4d9-c845a9022cb81620458761288
+  action = addsplash
+  y = 177
+  delayappearance = true
+  text = Version 0.1
+  delayappearanceeverytime = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 763
+  slim = false
+  actionid = 1f6fc056-4baa-4536-9a52-453d7ccd595e1620459206619
+  action = addentity
+  y = 294
+  scale = 30
+  playername = lyzio
+  parrot = false
+}
+
+customization {
+  showname = true
+  orientation = top-left
+  crouching = false
+  x = 496
+  slim = false
+  actionid = 81902dfe-9928-4386-8580-076a1e52edee1620459445123
+  action = addentity
+  y = 295
+  scale = 30
+  playername = Wingbeatz
+  parrot = false
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 6
+  action = addtext
+  actionid = b3765bd6-3ae3-4bd1-876d-58eae9b999411620459516348
+  y = 706
+  scale = 1.0
+  alignment = left
+  value = Minecraft %mcversion%
+}
+
+customization {
+  orientation = top-left
+  shadow = false
+  x = 5
+  action = addtext
+  actionid = 0d88ab6b-871c-4351-80c4-2f2fc697d8dc1620459536602
+  y = 696
+  scale = 1.0
+  alignment = left
+  value = Mods: %totalmods%
+}
+
