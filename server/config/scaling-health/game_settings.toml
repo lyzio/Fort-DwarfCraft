@@ -100,23 +100,23 @@
 
 	[mob.damage]
 		#The maximum extra attack damage a mob can receive
-		maxBoost = 10.0
+		maxBoost = 15.0
 		#How rapidly mob attack damage rises with difficulty (0 = no damage boost)
-		boostScale = 0.1
+		boostScale = 0.2
 
 	#Chance for mobs to receive a random potion effect (assuming their difficulty is high enough)
 	[mob.potionChance]
-		hostile = 0.375
+		hostile = 0.475
 		peaceful = 0.025
 
 	[mob.xp]
 		#Xp scaling multiplied by difficulty - xp scale of 0.1 with difficulty 10 will give about 11x more xp
-		Boost = 0.03
+		Boost = 0.05
 
 	#Mob health settings
 	[mob.health]
 		#This modifier affects the hp scale of mobs spawned by spawners, a normal 100 hp boost, will be of 30 using default value
-		spawner = 0.3
+		spawner = 0.4
 		#Determines how difficulty affects mob health.
 		#2 types of modes: Multiplier and additive, with 3 different multipliers.
 		#MULTI: Mob hp is multiplied, mobs with higher base hp have more increase.
@@ -303,4 +303,3 @@
 		#The highest attack damage a player can achieve, not considering the vanilla
 		#cap and modifiers from other sources. 0 means 'unlimited'.
 		maxValue = 0
-
