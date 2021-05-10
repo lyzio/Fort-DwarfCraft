@@ -11,7 +11,7 @@
 #Refills your hotbar from your inventory.
 "AutoRestock enabled" = true
 #Unlocks all vanilla recipes.
-"AutomaticRecipeUnlock enabled" = true
+"AutomaticRecipeUnlock enabled" = false
 #Right-click a bat with a bucket to capture it. Right-click again to release it and locate entities around you.
 "BatBuckets enabled" = true
 #Passive and friendly mobs will heal themselves within range of a beacon with the regeneration effect.
@@ -429,4 +429,3 @@
 [WitchesDropLuck]
 	#Chance (out of 1.0) of a witch dropping a Potion of Luck when killed by the player.
 	"Drop chance" = 0.05
-
