@@ -14,7 +14,7 @@
 	#Whether the walls of Pockets can be destroyed in creative mode
 	can_destroy_walls = false
 	#Whether or not any Player spawns with a book upon new spawn.
-	should_spawn_with_book = true
+	should_spawn_with_book = false
 	#Whether if reducing the Internal Height of Pocket that is larger will make it smaller.
 	internal_replace = false
 
@@ -33,4 +33,3 @@
 	disallowed_items = ["minecraft:chorus_fruit", "minecraft:ender_pearl", "xreliquary:ender_staff", "inventorypets:pet_nether_portal", "inventorypets:pet_enderman", "inventorypets:pet_silverfish"]
 	#List of disallowed Blocks inside of a Pocket.
 	disallowed_blocks = ["lucky:lucky_block", "chancecubes:chance_cube", "chancecubes:chance_icosahedron", "chancecubes:giant_chance_cube", "chancecubes:cube_dispenser", "xreliquary:wraith_node"]
-

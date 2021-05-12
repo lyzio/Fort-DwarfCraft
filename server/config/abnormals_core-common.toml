@@ -12,7 +12,6 @@
 		poisonEffect = true
 		#The chance to stunt baby mob growth when feeding a poisonous potato; Default: 0.1
 		#Range: 0.0 ~ 1.0
-		poisonChance = 0.1
+		poisonChance = 0.5
 		#If baby mobs can be fed a poisonous potato to stunt their growth when Quark is installed; Default: True
 		poisonPotatoCompatEnabled = true
-
