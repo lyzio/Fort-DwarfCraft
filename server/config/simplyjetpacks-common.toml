@@ -20,5 +20,4 @@
 	#Misc Configurations
 	[simplyjetpacks-common.misc]
 		#Enable Join Advancements
-		enableJoinAdvancements = true
-
+		enableJoinAdvancements = false
