@@ -1,7 +1,7 @@
 
 [items]
 	#If milkable mobs can be milked with empty glass bottles
-	"Milking with Glass Bottles" = false
+	"Milking with Glass Bottles" = true
 	#The use time for Milk Buckets, in ticks
 	"Milk Bucket drink time" = 32
 
@@ -25,4 +25,3 @@
 		"Plantain Spider spawn from Banana Bundles" = true
 		"Plantain Spiders give Slipping" = true
 		"Plantain Spider spawning in Jungles" = true
-
