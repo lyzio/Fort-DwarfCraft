@@ -5,13 +5,13 @@
 	"Amphithere Flight Speed" = 1.75
 	#how long(in ticks) a siren has to wait after failing to lure in a player
 	#Range: 100 ~ 24000
-	"Siren Time Between Songs" = 2000
+	"Siren Time Between Songs" = 1000
 	#Troll attack strength
 	#Range: 1.0 ~ 10000.0
-	"Troll Attack Strength" = 10.0
+	"Troll Attack Strength" = 15.0
 	#Maximum cyclops health
 	#Range: 1.0 ~ 10000.0
-	"Cyclops Max Health" = 150.0
+	"Cyclops Max Health" = 200.0
 	#Dread Lich spawn weight. Lower = lower chance to spawn
 	#Range: 1 ~ 10000
 	"Lich Spawn Weight" = 2
@@ -68,7 +68,7 @@
 	"Use Siren Shader" = true
 	#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 	"Dragon Moved Wrongly Error Fix" = false
-	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
+	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese"
 	noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 	#How many blocks away can death worms spot potential prey. Note that increasing this could cause lag
 	#Range: 1 ~ 10000
@@ -97,7 +97,7 @@
 	#How high stymphalian birds can fly, in Y height.
 	#Range: > 10
 	"Max Stymphalian Bird Flight Height" = 80
-	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
+	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
@@ -245,7 +245,7 @@
 	"Death Worms Target Monsters" = true
 	#How far away dangerous structures(dragon roosts, cyclops caves, etc.) must be from the last generated structure.
 	#Range: 1 ~ 10000
-	"Dangerous World Gen Dist Seperation" = 300
+	"Dangerous World Gen Dist Seperation" = 800
 	#True if dragons fire/ice charges create secondary explosions that launch blocks everywhere. Turn this to true if you like unfair explosions. Or lag.
 	"Explosive Dragon Breath" = false
 	#Maximum threads to use for dragon/myrmex pathfinding. Increase this number if pathing is slow and you have many cores.
@@ -264,7 +264,7 @@
 	#Stymphalian bird feather attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Stymphalian Bird Feather Attack Strength" = 1.0
-	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
+	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese"
 	blacklistedBreakBlocks = []
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
@@ -280,7 +280,7 @@
 	"Dragon Block Breaking Drop Chance" = 0.10000000149011612
 	#Damage dealt from a successful fire breath attack. Attack Damage is scaled to by age, so a stage 5 dragon will deal 5x as much as this number
 	#Range: 0.0 ~ 10000.0
-	"Dragon Attack Damage(Fire breath)" = 2.0
+	"Dragon Attack Damage(Fire breath)" = 4.0
 	#How many blocks away can ampitheres detect villagers being hurt. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
 	"Amphithere Villager Search Length" = 64
@@ -315,7 +315,7 @@
 	"Siren Max Sing Time" = 12000
 	#Max dragon health. Health is scaled to this
 	#Range: 1.0 ~ 100000.0
-	"Dragon Health" = 500.0
+	"Dragon Health" = 700.0
 	#How many blocks away can dragons spot potential prey. Note that increasing this could cause lag.
 	#Range: 1 ~ 10000
 	"Dragon Target Search Length" = 128
@@ -371,4 +371,3 @@
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Pixies Chance" = 60
-
