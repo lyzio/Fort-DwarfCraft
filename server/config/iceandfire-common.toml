@@ -68,7 +68,7 @@
 	"Use Siren Shader" = true
 	#Enable this if your server is being bombarded with moved wrongly or moved too fast console messages. REQUIRES RESTART!
 	"Dragon Moved Wrongly Error Fix" = false
-	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese"
+	#Blocks that a dragon can break, but won't spawn drops for. Use the format like "minecraft:stone" or "rats:block_of_cheese" 
 	noDropBreakBlocks = ["minecraft:stone", "minecraft:dirt", "minecraft:grass_block"]
 	#How many blocks away can death worms spot potential prey. Note that increasing this could cause lag
 	#Range: 1 ~ 10000
@@ -97,7 +97,7 @@
 	#How high stymphalian birds can fly, in Y height.
 	#Range: > 10
 	"Max Stymphalian Bird Flight Height" = 80
-	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis"
+	#Whitelist mob spawn (troll, hippogryph, etc) dimensions. Use the format like "minecraft:the_nether" or "rats:ratlantis" 
 	blacklistDimensions = ["minecraft:overworld"]
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
@@ -264,7 +264,7 @@
 	#Stymphalian bird feather attack strength.
 	#Range: 0.0 ~ 10000.0
 	"Stymphalian Bird Feather Attack Strength" = 1.0
-	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese"
+	#Blocks that a dragon cannot break. Use the format like "minecraft:chest" or "rats:block_of_cheese" 
 	blacklistedBreakBlocks = []
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
@@ -371,3 +371,4 @@
 	#1 out of this number chance per chunk for generation
 	#Range: 1 ~ 10000
 	"Spawn Pixies Chance" = 60
+
